@@ -16,7 +16,7 @@ const pointsScore = (points) => {
 const score = (pipePosition) => {
     const score = document.getElementById('score');
     let pontos = JSON.parse(localStorage.getItem('pontos'));
-    if(pipePosition >= 30 && pipePosition <= 38) {
+    if(pipePosition >= 55 && pipePosition <= 65) {
         pontos += 1;
         pointsScore(pontos);
     }
